@@ -1,0 +1,21 @@
+{
+    "ROS2.distro": "jazzy",
+    "python.autoComplete.extraPaths": [
+        "/home/badawy/ROS/ROS_ws_demo/build/joy_tester",
+        "/home/badawy/ROS/ROS_ws_demo/install/joy_tester/lib/python3.12/site-packages",
+        "/home/badawy/ROS/ROS_ws_demo/build/demo",
+        "/home/badawy/ROS/ROS_ws_demo/install/demo/lib/python3.12/site-packages",
+        "/home/badawy/ROS/first_publisher_node/build/publisher_node",
+        "/home/badawy/ROS/first_publisher_node/install/publisher_node/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/badawy/ROS/ROS_ws_demo/build/joy_tester",
+        "/home/badawy/ROS/ROS_ws_demo/install/joy_tester/lib/python3.12/site-packages",
+        "/home/badawy/ROS/ROS_ws_demo/build/demo",
+        "/home/badawy/ROS/ROS_ws_demo/install/demo/lib/python3.12/site-packages",
+        "/home/badawy/ROS/first_publisher_node/build/publisher_node",
+        "/home/badawy/ROS/first_publisher_node/install/publisher_node/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}
