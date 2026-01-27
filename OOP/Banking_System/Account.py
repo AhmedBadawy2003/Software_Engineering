@@ -19,6 +19,8 @@ class Account(ABC):
         self.deposit(initial_balance)
         Account.all_accounts.append(self)
         self._transactions_no=0
+        self.__creation_date=datetime.now()
+        self.__month_count=0
   
   
     @staticmethod    
@@ -123,9 +125,13 @@ class Account(ABC):
             total += entry._amount
         return total
 
-print(datetime.today().date())         
-print(datetime.now())
-
+# print(datetime.today().date())         
+# print(datetime.now())
+    def count_months(self):
+        
+        if datetime.now().month != self.__creation_date.month:
+            self.__month_count+=1
+            
 
 
 
@@ -138,3 +144,9 @@ class Transaction():
         
     def __str__(self):
         return f"Date: {self.date}\nAmount:{self._amount}\nTransaction Type:{self._type}\nReciever:{self.__reciever}"
+    
+    
+    
+    
+    
+  
